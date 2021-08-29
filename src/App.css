@@ -1,0 +1,33 @@
+.App {
+  margin-top: 50px;
+}
+
+span {
+  padding: 10px 20px;
+  margin: 10px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+#content {
+  border: 3px solid red;
+  color: red;
+  padding: 10px;
+}
+
+.active {
+  border: 3px solid #000;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
